@@ -2,9 +2,9 @@
 {
     public class WebUserDTO
     {
-        public string? employee_id { get; set; }
-        public string? password { get; set; }
-        public string? role { get; set; }
+        public string employee_id { get; set; } = string.Empty;
+        public string password { get; set; } = string.Empty;
+        public string role { get; set; } = string.Empty;
 
     }
 }
