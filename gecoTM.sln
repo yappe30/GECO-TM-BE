@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gecoTM", "gecoTM\gecoTM.csproj", "{B5007EC2-0729-4116-B0EF-3DD41A8AE152}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5007EC2-0729-4116-B0EF-3DD41A8AE152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5007EC2-0729-4116-B0EF-3DD41A8AE152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5007EC2-0729-4116-B0EF-3DD41A8AE152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5007EC2-0729-4116-B0EF-3DD41A8AE152}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08D0A731-EDC0-4AAE-A9E6-50ABDA6BF1E0}
+	EndGlobalSection
+EndGlobal
