@@ -38,18 +38,10 @@ namespace gecoTM.Repository.Timesheet
         public async Task<TimesheetModel> UpdateTimesheet(string id, string status) 
         {
             var _timesheetData = await _timesheetContext.Timesheet.SingleOrDefaultAsync(found => found.timesheet_id == id);
-            if (_timesheetData != null)
-            {
                 _timesheetData.status = status;
                 await _timesheetContext.SaveChangesAsync();
                 return _timesheetData;
-            }
-            else {
-                return null;
-            }
 
-
-        
            
         }
     }
