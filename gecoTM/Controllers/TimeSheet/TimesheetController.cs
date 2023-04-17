@@ -35,10 +35,10 @@ namespace gecoTM.Controllers.TimeSheet
 
         }
         [HttpPut("/UpdateTimesheet")]
-        public async Task<ActionResult<List<TimesheetDTO>>> UpdateTimesheet(string id, string status) 
+        public async Task<ActionResult<List<TimesheetDTO>>> UpdateTimesheet(string id, string status, string? remarks = "") 
         {
             
-                var updateTimesheet = await _timesheetService.UpdateTimesheet(id, status);
+                var updateTimesheet = await _timesheetService.UpdateTimesheet(id, status, remarks);
             if (updateTimesheet != null)
             {
                 return Ok(updateTimesheet);

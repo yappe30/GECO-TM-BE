@@ -22,9 +22,9 @@ namespace gecoTM.Services.Timesheet
 
             return records;
         }
-        public async Task<TimesheetDTO> UpdateTimesheet(string id, string status) 
+        public async Task<TimesheetDTO> UpdateTimesheet(string id, string status, string remarks) 
         {
-            var timesheetList = await _timesheetRepo.UpdateTimesheet(id, status);
+            var timesheetList = await _timesheetRepo.UpdateTimesheet(id, status, remarks);
             var records = _mapper.Map<TimesheetDTO>(timesheetList);
 
             return records;

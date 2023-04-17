@@ -29,16 +29,18 @@ namespace gecoTM.Repository.Timesheet
                         first_name = l.first_name,
                         middle_name = l.middle_name,
                         role = l.role,
-                        status = c.status
+                        status = c.status,
+                        remarks = c.remarks
                     });
 
            return await result.ToListAsync();
         }
 
-        public async Task<TimesheetModel> UpdateTimesheet(string id, string status) 
+        public async Task<TimesheetModel> UpdateTimesheet(string id, string status, string remarks) 
         {
             var _timesheetData = await _timesheetContext.Timesheet.SingleOrDefaultAsync(found => found.timesheet_id == id);
                 _timesheetData.status = status;
+                _timesheetData.remarks = remarks;
                 await _timesheetContext.SaveChangesAsync();
                 return _timesheetData;
 

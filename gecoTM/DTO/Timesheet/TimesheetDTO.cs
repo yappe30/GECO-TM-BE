@@ -10,5 +10,6 @@ namespace gecoTM.DTO.Timesheet
         public string project_id { get; set; } = string.Empty;
         public string employee_id { get; set; } = string.Empty;
         public string status { get; set; } = string.Empty;
+        public string? remarks { get; set; } = string.Empty;
     }
 }

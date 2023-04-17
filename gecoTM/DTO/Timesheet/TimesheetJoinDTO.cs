@@ -13,5 +13,6 @@
         public string first_name { get; set; } = string.Empty;
         public string middle_name { get; set; } = string.Empty;
         public string role { get; set; } = string.Empty;
+        public string? remarks { get; set; } = string.Empty;
     }
 }

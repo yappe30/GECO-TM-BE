@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gecoTM", "gecoTM\gecoTM.csproj", "{B5007EC2-0729-4116-B0EF-3DD41A8AE152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gecoTM", "gecoTM\gecoTM.csproj", "{B5007EC2-0729-4116-B0EF-3DD41A8AE152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gecoTM.test", "gecoTM.test\gecoTM.test.csproj", "{29E0469E-1FDB-4ABC-BBAC-2916BA38A656}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B5007EC2-0729-4116-B0EF-3DD41A8AE152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5007EC2-0729-4116-B0EF-3DD41A8AE152}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5007EC2-0729-4116-B0EF-3DD41A8AE152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E0469E-1FDB-4ABC-BBAC-2916BA38A656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E0469E-1FDB-4ABC-BBAC-2916BA38A656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E0469E-1FDB-4ABC-BBAC-2916BA38A656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E0469E-1FDB-4ABC-BBAC-2916BA38A656}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
